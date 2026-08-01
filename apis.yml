@@ -1,7 +1,29 @@
 aid: petrarch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/petrarch.png
 name: Petrarch
-description: Petrarch is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Petrarch is a Y Combinator (Summer 2026) data-marketplace company based in San
+  Francisco that unlocks enterprise data for the AI economy. Petrarch sources
+  proprietary, enterprise-facing datasets from distressed businesses and legacy
+  industries such as construction, manufacturing, and logistics, clears and
+  anonymizes them, and brokers them to AI companies and research labs building
+  for the physical world. Notable data types transacted include construction
+  plans, autonomous-driving recordings, and codebases. The company was founded
+  by Harvard graduates Ian Lee, Samuel Hahn, and Sudhish Swain, with prior
+  experience at organizations including Scale AI. As of this profile Petrarch
+  operates a public marketing website but does not publish a public developer
+  API, SDKs, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/petrarch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +33,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 tags:
 - Company
+- Data Marketplace
+- Data Engineering
+- Enterprise Data
+- Artificial Intelligence
+- B2B
+- Marketplace
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/petrarch-domain-security.yml
+- type: Website
+  url: https://petrarch.co/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
